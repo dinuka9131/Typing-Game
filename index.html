@@ -137,7 +137,8 @@
         }
         
         speed.onchange = function(){
-            delay = speed.value;
+            delay = 1000 - speed.value;
+            startTimer()
         }
     </script>    
 </body>
